@@ -18,7 +18,7 @@ class ChatBot:
             if sentiment_score > 0:
                 chatbot_message = f"ChatBot: That's great to hear! \n Sentiment score: {sentiment_score}\n"
             elif sentiment_score < 0:
-                chatbot_message = f"ChatBot: I'm sorry to hear that. \n Sentiment score: {sentiment_score}\n"
+                chatbot_message = f"ChatBot: I'm sorry to hear that. Would like to connect with an agent? \n Sentiment score: {sentiment_score}\n"
             else:
                 chatbot_message = f"ChatBot: Hmm, I see. \n Sentiment score: {sentiment_score}\n"
 
