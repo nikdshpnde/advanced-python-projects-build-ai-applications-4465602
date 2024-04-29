@@ -1,13 +1,10 @@
 # Importing TextBlob to help the chatbot understand language nuances.
 from textblob import TextBlob
 
-
 # Defining the ChatBot class for interaction.
 class ChatBot:
     def __init__(self):
-        # Initializing the sentiment analysis tool.
         self.sentiment_analyzer = TextBlob("")
-
     def start_chat(self):
         print("ChatBot: Hi, how can I help you?")
         while True:
